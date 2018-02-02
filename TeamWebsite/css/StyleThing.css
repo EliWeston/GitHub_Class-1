@@ -76,3 +76,9 @@ h2 {
 .pull-left{
 	float: left;
 }
+.media {
+	float: left;
+	padding: 20px;
+	border: 5px thick white;
+	
+}
