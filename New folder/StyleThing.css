@@ -1,0 +1,51 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 20px;
+	min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.header {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    color:#5DDCC7;
+}
+
+
+.topnav {
+	padding-left: 595px;
+  
+}
+
+
+.topnav a {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+
+
+.topnav a:hover {
+    background-color: black;
+    color:#5DDCC7 ;
+}
+
+	.top-left {
+	padding: 10px;
+	}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 100px;
+	color:#5DDCC7
+    }
