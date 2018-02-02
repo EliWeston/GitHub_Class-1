@@ -19,6 +19,17 @@ body {
     color:#5DDCC7;
 }
 
+.name {
+	font-size: 24px;
+	text-align: align;
+	color:white;
+}
+
+.main {
+	font-size: 14px;
+	color:white;
+}
+
 
 .topnav {
 	padding-left: 595px;
