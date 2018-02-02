@@ -5,10 +5,11 @@
 
 body {
     font-family: Arial;
-	padding: 50px 25px;
+	padding: 10px;
 	min-height: 100%;
     background-position: center;
     background-size: cover;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
 h2 {
@@ -16,17 +17,10 @@ h2 {
 	text-align: align;
 	color:white;
 }
-p {
-	font-size: 15px;
-	color: white;
-	text-shadow: 1px 1px 3px black;
-	float: left;
-	
-}
 
 
 .header {
-    padding: 20px;
+    padding: 30px;
     font-size: 40px;
     text-align: center;
     color:#5DDCC7;
@@ -41,25 +35,28 @@ p {
 .main {
 	font-size: 14px;
 	color:white;
+	text-shadow: 1px 1px 3px black;
 }
 
 
-.topnav {
-	padding-left: 595px;
+.col-lg-12 {
+	text-align: center;
+	
   
 }
 
 
-.topnav a {
+.col-lg-12 a {
     color: white;
+	font-size: 25px;
     text-align: center;
-    padding: 30px;
+	padding:50px;
     text-decoration: none;
 }
 
 
-.topnav a:hover {
-    background-color: black;
+.col-lg-12 a:hover {
+	text-align: center;
     color:#5DDCC7 ;
 }
 
@@ -68,8 +65,14 @@ p {
 	}
 
 .footer {
-    padding: 20px;
+    padding: 30px;
     text-align: center;
+	position: fixed;
+	bottom: -9px;
     margin-top: 100px;
-	color:#5DDCC7
+	color:#5DDCC7;
+	
     }
+.pull-left{
+	float: left;
+}
