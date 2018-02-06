@@ -18,7 +18,17 @@ h2 {
 	color:white;
 }
 
-
+@media(min-width: 768px){
+	.main {
+		margin: 0px;
+	}
+}
+@media(min-width: 980px){
+	.main{
+		width: 970px;
+		margin: 30px;
+	}
+}
 .header {
     padding: 30px;
     font-size: 40px;
