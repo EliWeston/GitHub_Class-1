@@ -43,9 +43,9 @@ h2 {
 }
 
 .main {
-	font-size: 14px;
+	font-size: 20px;
 	color:white;
-	text-shadow: 1px 1px 3px black;
+	text-shadow: 2px 2px 10px #5DDCC7;
 }
 
 
@@ -88,7 +88,14 @@ h2 {
 }
 .media {
 	float: left;
-	padding: 20px;
-	border: 5px thick white;
-	
+	padding-left: 10px;
+	padding-right: 20px;
+	border: thick white;
+}
+.page-header{
+	color: white;
+	text-shadow: 2px 2px 3px #5DDCC7;
+}
+.navbar{
+	background-color: transparent;
 }
